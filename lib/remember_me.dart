@@ -25,7 +25,12 @@ class RememberMeScreen extends StatelessWidget {
                 },
               ),
             ),
-            const Text('Remember Me'),
+            const Text(
+              'Remember Me',
+              style: TextStyle(
+                fontSize: 20,
+              ),
+            ),
           ],
         ),
       ),
